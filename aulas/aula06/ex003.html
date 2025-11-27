@@ -14,7 +14,26 @@
     <h1>ola mundooo</h1>
     <p>me livrei da maldição</p>
     <script>
-        
+        var n1 = Number.parseInt(window.prompt('digite um numero: ')); //o prompt por si so armazena o dado como string
+        var n2 = Number.parseInt(window.prompt('digite outro numero: ')); // entao usamos o Number.parseInt para converter para int, ou parseFloat para float
+        var s = n1 + n2;
+        window.alert(`a soma entre ${n1} e ${n2} é ${s}`); //forma melhor de colocar o conteudo de variáveis em frase (`${var}`)
+        //(number + number) para adição
+        //(string + string) concatenação
     </script>
 </body>
 </html>
+
+<!--
+tambem tem uma maneira mais facil de converter, usando apenas
+
+var n1 = Number(window.prompt('digite um numero: '));
+apenas a palavra Number
+
+para converter um numer para string usamos: String(n) ou n.toString
+
+
+s.lenght // quantos caracteres tem na string
+s.toUpperCase() // muda tudo para MAIUSCULO
+s.toLowerCase // tudo para minusculo
+-->
