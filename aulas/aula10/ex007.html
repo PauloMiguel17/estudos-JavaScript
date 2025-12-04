@@ -9,6 +9,13 @@
             background-color: rgb(255, 199, 130);
             font-family: Arial, Helvetica, sans-serif;
         }
+        input{
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res{
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -24,7 +31,7 @@
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
             var s = n1 + n2
-            res.innerHTML = `a soma entre ${n1} + ${n2} é igual a ${s}`
+            res.innerHTML = `a soma entre ${n1} + ${n2} é igual a <strong>${s}</strong>`
         }
     </script>
 </body>
