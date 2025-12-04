@@ -18,9 +18,37 @@
     <p>Aprendendo usar DOM em javascript</p>
     <div id = "msg">Clique em Mim</div>
     <script>
+        var corpo = window.document.body
         var d = window.document.getElementById('msg');
         d.style.background = "green"
         d.innerText = "estou aguardando"
+        var p1 = window.document.querySelectorAll('p')[1]
+        window.document.write('esta escrito assim: ' + p1.innerText);
+        p1.style.color = 'blue'
+        corpo.style.backgroundColor = 'yellow'
     </script>
 </body>
 </html>
+
+<!--
+
+Cola dos seletores
+
+por ID:
+document.getElementById(id) ex: document.getElementById('msg')
+
+
+por Seletor:
+document.querySelector(selector) ex: document.querySelector('p') Retorna o primeiro elemento que corresponde ao seletor CSS fornecido
+
+document.querySelectorAll(selector) ex: document.querySelector('p')[0] indicando qual p vc quer
+
+
+por Classe:
+document.getElementsByClassName(className) ex: document.getElementsByClassName(div.classesla)
+
+
+por TagName:
+document.getElementsByTagName(tagName) ex: Retorna uma coleção de elementos com a tag especificada (por exemplo, p, div). 
+
+-->
