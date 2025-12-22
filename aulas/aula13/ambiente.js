@@ -5,3 +5,7 @@ var c = 1;
     c++;
 }*/
 
+do{
+    console.log('olá');
+    c++;
+}while (c <= 10)
