@@ -1,9 +1,11 @@
 function parimpar(n){
     if(n%2 == 0){
-        console.log(`o número ${n} é par`);
+        return 'par!';
     }else{
-        console.log(`o número ${n} é impar`);
+        return 'impar!';
     }
 }
 
-parimpar(3);
+let resultado = parimpar(4);
+
+console.log(resultado);
