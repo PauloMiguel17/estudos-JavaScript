@@ -15,3 +15,9 @@ console.log(`o vetor tem ${num.length} posiçoes (usando num.length) \n`);
 //função para ordenar valores do array
 num.sort((a, b) => a - b);
 console.log(`vetor ordenado ${num} \n`);
+
+console.log('elementos do vetor mostrados individualmente com repetição \n');
+
+for(let i = 0; i< num.length; i++){
+    console.log(`${num[i]}`)
+}
