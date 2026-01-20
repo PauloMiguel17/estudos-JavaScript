@@ -10,3 +10,8 @@ console.log('\n');
 for(i in vetor){
     console.log(`a posição ${i} tem o valor ${vetor[i]}`);
 }
+console.log('\n');
+
+//pesquisar valor em array
+let valor = vetor.indexOf(5);
+console.log(`o valor 5 está na posição ${valor}`);
