@@ -13,5 +13,9 @@ for(i in vetor){
 console.log('\n');
 
 //pesquisar valor em array
-let valor = vetor.indexOf(5);
-console.log(`o valor 5 está na posição ${valor}`);
+let pos = vetor.indexOf(5);
+if(pos == -1){
+    console.log("valor nao encontrado");
+} else{
+    console.log(`o valor 5 está na posição ${pos}`);
+}
