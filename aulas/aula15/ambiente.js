@@ -1,13 +1,16 @@
 let num = [5, 8, 9, 10];
-console.log(`nosso vetor é o ${num}`);
+console.log(`nosso vetor é o ${num} \n`);
 
 //adicionar um valor ao vetor de forma manual
 num[4] = 15;
-console.log(`nosso vetor é o ${num}`);
+console.log(`adicionando o numero 15 na posição 4 do vetor de forma manual (num[4] = 15) ${num} \n`);
 
 // de forma mais facil podemos usar a funçao push, adiciona no final 
 num.push(7);
-console.log(`nosso vetor é o ${num}`);
+console.log(`adicionando um valor no final do array usando (num.push(7)) ${num} \n`);
 
 //funçao para saber quantas posições tem o vetor
-console.log(`o vetor tem ${num.length} posiçoes`)
+console.log(`o vetor tem ${num.length} posiçoes (usando num.length) \n`)
+
+//função para ordenar valores do array
+console.log(`vetor ordenado ${num.sort()} \n`)
