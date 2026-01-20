@@ -18,6 +18,6 @@ console.log(`vetor ordenado ${num} \n`);
 
 console.log('elementos do vetor mostrados individualmente com repetição \n');
 
-for(let i = 0; i< num.length; i++){
+for(let i = 0; i < num.length; i++){
     console.log(`${num[i]}`)
 }
