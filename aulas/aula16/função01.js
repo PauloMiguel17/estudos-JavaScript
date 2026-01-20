@@ -6,6 +6,6 @@ function parimpar(n){
     }
 }
 
-let resultado = parimpar(4);
+let resultado = parimpar(10212);
 
 console.log(resultado);
